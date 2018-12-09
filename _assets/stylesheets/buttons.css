@@ -1,0 +1,31 @@
+.button {
+	position: relative;
+    display: inline-block;
+}
+
+.button .activ {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.button:hover .activ {
+    display: inline;
+}
+
+/*.button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: transparent;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: yellow;
+}*/
