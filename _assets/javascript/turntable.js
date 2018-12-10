@@ -1,16 +1,17 @@
 
 var playing = false;
-function action(){
-  var audio = document.getElementById("audio");
+function action(image){
+  var audio = $(image).parent().find("audio").get(0);
+  console.log(audio);
  	if(playing === false){
     audio.play();
-    $("img").toggleClass("spin");
-    $("img").removeClass("pause");
+    $(image).toggleClass("spin");
+    $(image).removeClass("pause");
     playing = true;
   }else{
     audio.pause();
-   	$("img").toggleClass("pause");
-    $("img").removeClass("spin");
+   	$(image).toggleClass("pause");
+    $(image).removeClass("spin");
     playing = false;
   }	
 }
