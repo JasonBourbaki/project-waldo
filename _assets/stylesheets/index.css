@@ -70,7 +70,7 @@ body {
 }
 
 .presentation {
-	position: absolute;
+	position: fixed;
 	bottom: -16.5vh;
 	right: 14.5vw;
 	height: 34vh;
