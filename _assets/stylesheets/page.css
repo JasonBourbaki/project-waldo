@@ -1,5 +1,5 @@
 .background{
-  background-image: url("../images/frontpage.png");
+  background-image: url("../images/static/frontpage.png");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
@@ -87,7 +87,7 @@
 	transform: translate(0vw, -16.5vh);
 }
 .drawer5_background {
-  background-image: url("../images/drawer5_1.jpg");
+  background-image: url("../images/static/drawer5_1.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
@@ -104,8 +104,8 @@
 }
 .video{
   position: fixed;
-  left: 8.5vw;
-  top: 8.5vh;
+  left: 3vw;
+  top: 4vh;
 }
 .text{
   text-align: center;
@@ -118,7 +118,7 @@
 	top: 0vh;
 }
 .egyptBox_background{
-  background-image: url("../images/box_background.jpg");
+  background-image: url("../images/static/box_background.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
