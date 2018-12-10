@@ -1,5 +1,5 @@
-body {
-  background-image: url("../images/static/frontpage.png");
+.background{
+  background-image: url("../images/frontpage.png");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
@@ -85,4 +85,40 @@ body {
 
 .presentation:hover{
 	transform: translate(0vw, -16.5vh);
+}
+.drawer5_background {
+  background-image: url("../images/drawer5_1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+.drawer5-buttons{
+  position: fixed;
+	left: 7.5vw;
+	top: 20vh;
+	height: 47.6vh;
+	width: 71.5vw;
+}
+.drawer5-buttons img{
+  height: 47.6vh;
+  width: 71.5vw;
+}
+.video{
+  position: fixed;
+  left: 8.5vw;
+  top: 8.5vh;
+}
+.text{
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.pictures_act img{
+  position: fixed;
+	left: 0vw;
+	top: 0vh;
+}
+.egyptBox_background{
+  background-image: url("../images/box_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
