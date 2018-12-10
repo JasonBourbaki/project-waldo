@@ -1,0 +1,83 @@
+body {
+  background-image: url("../images/static/slide.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.literature{
+	position: fixed;
+	left: 13.2vw;
+	top: 12.7vh;
+	height: 26vh;
+	width: 15vw;
+}
+
+.literature img{
+	height: 26vh;
+	width: 15vw;
+}
+
+.legacy{
+	position: fixed;
+	left: 9.3vw;
+	top: 52.8vh;
+	height: 21vh;
+	width: 12.5vw;
+}
+
+.legacy img{
+	height: 21vh;
+	width: 12.5vw;
+}
+
+.religion{
+	position: fixed;
+	left: 33.5vw;
+	top: 69.7vh;
+	height: 26vh;
+	width: 15vw;
+}
+
+.religion img{
+	height: 26vh;
+	width: 15vw;
+}
+
+.philosophy{
+	position: fixed;
+	right: 11.4vw;
+	top: 66.8vh;
+	height: 24.9vh;
+	width: 14.8vw;
+}
+
+.philosophy img{
+	height: 24.9vh;
+	width: 14.8vw;
+}
+
+.transcend{
+	position: fixed;
+	right: 2.8vw;
+	top: 8vh;
+	height: 34.4vh;
+	width: 20.25vw;
+}
+
+.transcend img{
+	height: 34.4vh;
+	width: 20.25vw;
+}
+
+.familyman{
+	position: fixed;
+	left: 52vw;
+	top: 3.5vh;
+	height: 17vh;
+	width: 10vw;
+}
+
+.familyman img{
+	height: 17vh;
+	width: 10vw;
+}

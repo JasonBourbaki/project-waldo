@@ -1,0 +1,17 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to { 
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+	animation-play-state: running;
+    animation: rotate 2.2s infinite linear;
+}
+
+.pause{
+	animation-play-state: paused;
+}
