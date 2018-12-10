@@ -1,5 +1,88 @@
 body {
   background-image: url("../images/frontpage.png");
   background-repeat: no-repeat;
-  background-size: 100% 81%;
+  background-size: 100vw 100vh;
+}
+
+.bookshelf{
+	position: fixed;
+	left: 0vw;
+	top: 6.1vh;
+	height: 90vh;
+	width: 12vw;
+}
+
+.bookshelf img{
+	height: 90vh;
+	width: 12vw;
+}
+
+.pictures{
+	position: fixed;
+	left: 37.65vw;
+	top: 19.8vh;
+	height: 31.1vh;
+	width: 19.35vw;
+}
+
+.pictures img{
+	height: 31.1vh;
+	width: 19.35vw;
+}
+
+.egypt-box {
+	position: fixed;
+	top: 58vh;
+	right: 8.5vw;
+	height: 28vh;
+	width: 9.25vw;
+}
+
+.egypt-box img{
+	height: 28vh;
+	width: 9.25vw;
+}
+
+.drawers {
+	position: fixed;
+	bottom: 0vh;
+	right: 0vw;
+	height: 42vh;
+	width: 9vw;
+}
+
+.drawers img{
+	height: 42vh;
+	width: 9vw;
+}
+
+.fireplace {
+	position: fixed;
+	bottom: 5.3vh;
+	right: 33.5vw;
+	height: 39.1vh;
+	width: 38.7vw;
+}
+
+.fireplace img{
+	height: 39.1vh;
+	width: 38.7vw;
+}
+
+.presentation {
+	position: absolute;
+	bottom: -16.5vh;
+	right: 14.5vw;
+	height: 34vh;
+	width: 20vw;
+	transition: transform 1.6s;
+}
+
+.presentation img{
+	height: 34vh;
+	width: 20vw;
+}
+
+.presentation:hover{
+	transform: translate(0vw, -16.5vh);
 }

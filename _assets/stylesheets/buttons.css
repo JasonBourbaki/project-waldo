@@ -1,5 +1,5 @@
 .button {
-	position: relative;
+	position: absolute;
     display: inline-block;
 }
 
@@ -14,18 +14,3 @@
 .button:hover .activ {
     display: inline;
 }
-
-/*.button {
-    background-color: Transparent;
-    background-repeat: no-repeat;
-    border: none;
-    color: transparent;
-    padding: 0px 0px;
-    text-align: center;
-    font-size: 12px;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: yellow;
-}*/
