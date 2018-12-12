@@ -58,15 +58,15 @@
 
 .fireplace {
 	position: fixed;
-	bottom: 5.3vh;
-	right: 33.5vw;
-	height: 39.1vh;
-	width: 38.7vw;
+	bottom: 5.2vh;
+	right: 33.6vw;
+	height: 44.5vh;
+	width: 38.9vw;
 }
 
 .fireplace img{
-	height: 39.1vh;
-	width: 38.7vw;
+	height: 44.5vh;
+	width: 38.9vw;
 }
 
 .presentation {

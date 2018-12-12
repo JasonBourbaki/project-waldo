@@ -14,3 +14,7 @@
 .button:hover .activ {
     display: inline;
 }
+
+.button:hover .icon{
+	display: none;
+}
