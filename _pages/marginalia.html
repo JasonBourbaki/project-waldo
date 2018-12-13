@@ -1,40 +1,85 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Emerson's Bookshelf - Marginalia</title>
-	<link rel="stylesheet" type="text/css" href="../_assets/stylesheets/page.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
-
-		function plusDivs(n) {
-  			showDivs(slideIndex += n);
-		}
-
-		function showDivs(n) {
-  			var i;
-  			var x = document.getElementsByClassName("mySlides");
-  			if (n > x.length) {slideIndex = 1}
-  			if (n < 1) {slideIndex = x.length}
-  			for (i = 0; i < x.length; i++) {
-     			x[i].style.display = "none";
-  			}
-  			x[slideIndex-1].style.display = "block";
-		}
-	</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<Link rel="stylesheet" type="text/css" href= "../_assets/stylesheets/marginalia.css">
 </head>
-<body class= "marginalia_background">
-	<h1>These are interesting marginalia Emerson gathered over the years</h1>
-	<div class="display-container">
-  		<img class="mySlides" src="https://data.whicdn.com/images/298844185/large.jpg?t=1507433077" style="width:75%">
-  		<img class="mySlides" src="https://i.pinimg.com/originals/81/6d/a5/816da533638aee63cfbd315ea24cccbd.jpg" style="width:75%">
-  		<img class="mySlides" src="https://dobg410y77ikx.cloudfront.net/uploads/2018/03/Russian-Blue_01.jpg" style="width:75%">
-  		<img class="mySlides" src="https://media.indiedb.com/images/downloads/1/66/65404/Cute_cat_1.jpg" style="width:75%">
+<body class= "background">
+<h1 class= "title"> These are some of doodles and notes that Emerson made on his books.</h1>
+<div class="slideshow-container">
 
-  		<button class="button black display-left" onclick="plusDivs(-1)">&#10094;</button>
-  		<button class="button black display-right" onclick="plusDivs(1)">&#10095;</button>
-	</div>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="../_assets/images/static/marginalia_house.jpg" style="width:100%">
+  <div class="text">A sketch of Thoreau’s home at Walden Pond.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="../_assets/images/static/marginalia_man.jpg" style="width:100%">
+  <div class="text">A sketch of an engraved portrait, perhaps a military figure.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="../_assets/images/static/marginalia_math.jpg" style="width:100%">
+  <div class="text">Arithmetic calculation done by Emerson.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="../_assets/images/static/marginalia_person.jpg" style="width:100%">
+  <div class="text">This is a typical Emerson doodle; there are many in his journals and books.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="../_assets/images/static/marginalia_other.jpg" style="width:100%">
+  <div class="text">These are typical Emerson footnotes. The check mark identifies important passages.</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
 </body>
-
-
 </html>
