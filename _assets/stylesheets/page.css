@@ -60,15 +60,15 @@
 
 .fireplace {
 	position: fixed;
-	bottom: 5.2vh;
-	right: 33.6vw;
-	height: 44.5vh;
-	width: 38.9vw;
+	bottom: 4.9vh;
+	right: 33.55vw;
+	height: 45vh;
+	width: 38.8vw;
 }
 
 .fireplace img{
-	height: 44.5vh;
-	width: 38.9vw;
+	height: 45vh;
+	width: 38.8vw;
 }
 
 .presentation {
@@ -106,8 +106,8 @@
 }
 .video{
   position: fixed;
-  left: 3vw;
-  top: 4vh;
+  left: 3.6vw;
+  top: 3.9vh;
 }
 .text{
   text-align: center;
