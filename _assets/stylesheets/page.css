@@ -59,14 +59,14 @@
 .fireplace {
 	position: fixed;
 	bottom: 4.9vh;
-	right: 33.55vw;
+	right: 33.75vw;
 	height: 45vh;
-	width: 38.8vw;
+	width: 38.6vw;
 }
 
 .fireplace img{
 	height: 45vh;
-	width: 38.8vw;
+	width: 38.6vw;
 }
 
 .presentation {
@@ -104,7 +104,7 @@
 }
 .video{
   position: fixed;
-  left: 3.6vw;
+  left: 3.8vw;
   top: 3.9vh;
 }
 .text{
